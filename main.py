@@ -102,6 +102,8 @@ def lnko(a, b):         #cel mai mare multiplicativ comun
             b = b - a
     return a
 
+print("a")
+
 def lkkt(a, b):         #kleinsten gemeinsamen Vielfachen fur a,b
     o = lnko(a, b)
     return a * b // o
